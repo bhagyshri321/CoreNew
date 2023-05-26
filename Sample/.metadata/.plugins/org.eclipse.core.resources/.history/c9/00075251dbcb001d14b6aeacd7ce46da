@@ -1,0 +1,13 @@
+package in.co.testException;
+
+public class MistakeForChecked extends Exception {
+	
+	
+	public MistakeForChecked() {
+		super();
+	
+}
+	
+	
+
+}

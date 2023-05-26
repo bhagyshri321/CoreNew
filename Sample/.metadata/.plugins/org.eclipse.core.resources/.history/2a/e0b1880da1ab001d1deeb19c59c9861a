@@ -1,0 +1,22 @@
+package com.core;
+
+public class Student {
+	String name= "Bhagyshri";
+	
+	public Student(){}
+	
+	public void setName(String n) {
+		n= name;
+		
+	}
+	public String getName() {
+		return name;
+	}
+	
+	public static void main(String[]args) {
+		Student a = new Student();
+		a.getName();
+	}
+	
+
+}

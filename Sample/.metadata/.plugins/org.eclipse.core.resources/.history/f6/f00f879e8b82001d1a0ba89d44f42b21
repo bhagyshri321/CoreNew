@@ -1,0 +1,31 @@
+package com.basic;
+
+public class PalindromeNumber {
+	
+	public static void main(String[] args) {
+		
+		int no =121;
+		int temp= no;
+		
+		int rev=0,rem;
+		while(temp!=0) {
+			
+			rem=temp%10;
+			System.out.println(rem);
+			rev= rev*10+rem;
+			System.out.println(rev);
+			temp= temp/10;
+			
+			System.out.println(temp);
+		}
+		
+		if (no==rev) {
+			System.out.println("no is palindrome");
+			
+		} else {
+			System.out.println("NO IS NOT PALINDROME");
+
+		}
+	}
+
+}

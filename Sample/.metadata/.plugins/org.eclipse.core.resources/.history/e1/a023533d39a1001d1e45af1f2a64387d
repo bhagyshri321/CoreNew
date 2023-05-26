@@ -1,0 +1,40 @@
+package in.imp.String;
+
+public class TestCountOcc2 {
+
+	public static void main(String[] args) {
+
+		
+		  String s = "java"; char[] ch= s.toCharArray(); int count=0;
+		  
+		  for(char c:ch) { count=0;
+		  
+		  
+		  
+		  for(int i=0;i<ch.length;i++) {
+		  
+		  if (ch[i]==c) { count++;
+		  
+		  } }
+		  
+		  System.out.println(c+" "+count);
+		  
+		  count=0; }
+		  
+		  
+		 
+		/*
+		 * String s= "Bhagyshri"; char[] t= s.toCharArray(); int count=0; for(char k:t)
+		 * { System.out.println(k); count=0; for(int i=0;i<t.length;i++) {
+		 * System.out.println(i); if(k==s.charAt(i)) { count++; } }
+		 * System.out.println(k+" "+ count);
+		 * 
+		 * }
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+	}
+
+}

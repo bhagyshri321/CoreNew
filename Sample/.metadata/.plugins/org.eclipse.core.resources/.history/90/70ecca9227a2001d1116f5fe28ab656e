@@ -1,0 +1,14 @@
+package in.imp.String;
+
+public class StringLengthTest {
+	public static void main(String[] args) {
+		
+	StringBuffer sb= new StringBuffer("This is java,");
+	sb.append(" Java is promising");
+	System.out.println(sb);
+	System.out.println(sb.insert(0, "Hello "));
+	System.out.println(sb.capacity());
+	System.out.println(sb.delete(0, 4));
+	
+	
+}}

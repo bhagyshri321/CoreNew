@@ -1,0 +1,17 @@
+package com.basic;
+
+public class ObjectTest{
+	public static void main(String[]args) {
+		
+		ObjectCreationFromFactoryMeth obj= ObjectCreationFromFactoryMeth.getObject();
+		System.out.println(obj.n);
+	}
+	
+	
+}
+			
+
+		
+		
+		
+

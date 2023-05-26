@@ -1,0 +1,17 @@
+package in.imp.String;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		char[]chars= {'s','u','n'};
+		for (char t: chars) {
+			System.out.println(t);	
+		}
+		
+		
+		
+
+	}
+
+}

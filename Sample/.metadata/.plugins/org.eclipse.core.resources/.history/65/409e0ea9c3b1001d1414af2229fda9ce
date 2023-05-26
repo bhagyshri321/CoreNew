@@ -1,0 +1,26 @@
+package com.basic;
+
+public class Person{
+	
+	static Person person= null;
+	public static Person getInstance() {
+		Person p= new Person();
+		return person;
+		
+	}
+	
+	public void show() {
+		System.out.println("in show");
+	}
+	
+	public static void main(String[] args) {
+		
+		Person p= getInstance();
+	
+		
+	}
+	
+	
+	
+	
+}

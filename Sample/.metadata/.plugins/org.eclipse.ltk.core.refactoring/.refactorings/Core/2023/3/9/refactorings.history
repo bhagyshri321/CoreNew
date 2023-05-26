@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;Core&apos;&#x0D;&#x0A;- Original project: &apos;Core&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     in.co.testException.BankAccount.java&#x0D;&#x0A;     in.co.testException.Customer.java&#x0D;&#x0A;     in.co.testException.Test.java" description="Delete elements" element1="/src&lt;in.co.testException{Customer.java" element2="/src&lt;in.co.testException{Test.java" element3="/src&lt;in.co.testException{BankAccount.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1677665109483" subPackages="false" version="1.0"/>
+</session>

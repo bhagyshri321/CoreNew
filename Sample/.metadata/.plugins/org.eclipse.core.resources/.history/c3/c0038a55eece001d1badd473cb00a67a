@@ -1,0 +1,70 @@
+package co.hashAndEquals;
+
+public class Marksheet {
+	
+	    public String name;
+		public int marks;
+		public String rollno;
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getMarks() {
+			return marks;
+		}
+
+		public void setMarks(int marks) {
+			this.marks = marks;
+		}
+
+		public String getRollno() {
+			return rollno;
+		}
+
+		public void setRollno(String rollno) {
+			this.rollno = rollno;
+		}
+
+		public Marksheet(String r, String n, int m) {
+			rollno = r;
+			name = n;
+			marks = m;
+		}
+
+		public boolean equals(Object o) {
+
+			if (o == null) {
+				return false;
+			}
+			if (!(o instanceof Marksheet)) {
+
+				return false;
+			}
+			Marksheet m = (Marksheet) o;
+			if(!(rollno.equals(m.rollno)&& !(marks==m.marks) && 
+					!(name.equals(m.name))))
+
+			
+			return rollno.equals(m.rollno);
+		}
+		
+		public int hashcode(){
+			return this.rollno.hashCode();
+			
+		}
+
+
+//		public String toString() {
+//			return name + "," + rollno + "," + marks;
+	//
+//		}
+
+	}
+
+
+

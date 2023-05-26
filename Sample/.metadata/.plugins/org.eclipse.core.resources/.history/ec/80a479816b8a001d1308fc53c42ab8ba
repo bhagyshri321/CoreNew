@@ -1,0 +1,19 @@
+package in.imp.String;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String s= "Bhagyshri Saxena";
+		String[] k= s.split(" ");
+		
+		for(String T:k) {
+			for(int i=T.length()-1;i>=0;i--) {
+				System.out.print(T.charAt(i));
+			}
+			System.out.println(" ");
+		}
+		
+		
+	}
+
+}

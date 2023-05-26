@@ -1,0 +1,15 @@
+package in.imp.String;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		StringBuffer sb= new StringBuffer("This Is Java");
+		
+		sb.append("Java is good");
+		sb.append("Java is promising");
+		System.out.println(sb);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package in.co.testException;
+
+import org.w3c.dom.ranges.RangeException;
+
+public class MistakeForChecked extends RuntimeException {
+	
+	
+	public MistakeForChecked() {
+		super();
+	}
+	
+	
+
+}

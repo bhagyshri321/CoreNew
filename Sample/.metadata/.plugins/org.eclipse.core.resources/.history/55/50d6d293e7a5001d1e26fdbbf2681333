@@ -1,0 +1,17 @@
+package in.imp.String;
+
+public class ExtractLastName {
+	public static void main(String[] args) {
+		
+	
+	String name= "Bhagyhsri Saxena";
+	String[] k= name.split(" ");
+	for(String l: k) {
+		System.out.print(" "+ l);
+		
+	}
+		/*
+		 * String lastname= k[k.length-1]; System.out.println("lastname is  "+lastname);
+		 */
+
+}}

@@ -1,0 +1,27 @@
+package in.co.testException;
+
+public class ThrowException {
+	
+	public static boolean isValidUser() {
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		
+		boolean userfound = isValidUser();
+	
+
+	if(userfound) {
+		System.out.println("valid user");
+	}
+	else {
+		try {
+		RuntimeException e = new RuntimeException();
+	     throw e;}
+		catch(Exception E) {
+			System.out.println("sahi user nahi hai");
+			
+		}
+	
+	}
+}}

@@ -1,0 +1,23 @@
+package com.basic;
+
+public class ArmstrongNumber {
+	
+	public static void main(String[] args) {
+		
+		int no=153;
+		int length=0;
+		
+		 while(no!=0) {
+			 
+			 no= no/10;
+			length= length+1;
+			
+			System.out.println(length);
+		  
+		  
+		  
+		  
+	  }
+	}
+
+}

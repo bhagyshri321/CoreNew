@@ -1,0 +1,27 @@
+package com.core;
+
+public class Student {
+	String name= "Bhagyshri";
+	
+	public Student(){}
+	
+	public void setName(String n) {
+		n= name;
+		
+	}
+	public String getName() {
+		return name;
+	}
+	
+	public static void main(String[]args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		//Student a = new Student();
+		//System.out.println(a.getName());
+		
+		Student a = (Student) Class.forName("com.core.Student").newInstance();
+	System.out.println(a.getName());
+	
+	
+	}
+	
+
+}

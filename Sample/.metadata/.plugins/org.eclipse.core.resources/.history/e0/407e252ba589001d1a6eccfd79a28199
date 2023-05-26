@@ -1,0 +1,16 @@
+package in.imp.String;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		String s= "Bhagyshri Saxena";
+		
+		System.out.println(s.indexOf("h"));
+	
+		
+		
+
+	}
+
+}

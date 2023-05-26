@@ -1,0 +1,16 @@
+package in.imp.String;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		String s= "BhagyshriSaxena";
+		
+		System.out.println(s.lastIndexOf("x"));
+	
+		
+		
+
+	}
+
+}
